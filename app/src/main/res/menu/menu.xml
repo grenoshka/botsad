@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/location"
+        android:icon="@drawable/icon_location"
+        />
+    <item
+        android:id="@+id/rectangles"
+        android:icon="@drawable/rectangles"/>
+    <item
+        android:id="@+id/circle"
+        android:icon="@drawable/round_icon_idk" />
+    <item
+        android:id="@+id/star"
+        android:icon="@drawable/star_icon" />
+    <item
+        android:id="@+id/last_rectangle"
+        android:icon="@drawable/last_icon" />
+</menu>

@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">BotSad</string>
+
+    <!-- Main Page -->
+    <string name="welcome_to_botsad">Добро пожаловать в Сибирский Ботанический сад</string>
+    <string name="tsu">Томского Государственного университета</string>
+    <string name="log_in">войти</string>
+    <string name="sign_up">регистрация</string>
+
+
+    <!--Log In-->
+    <string name="enter_login">Пожалуйста, введите свой логин</string>
+    <string name="login_or_email">логин или email</string>
+    <string name="password">пароль</string>
+    <string name="forgot_password">забыли пароль?</string>
+    <string name="or">или</string>
+    <string name="no_account">нет аккаунта</string>
+
+
+    <!-- Sign Up-->
+    <string name="enter_data">Пожалуйста, введите свои данные</string>
+    <string name="username">имя</string>
+    <string name="repeat_password">повторите пароль</string>
+    <string name="agreement1">я даю согласие на обработку моих персональных данных и соглашаюсь с</string>
+    <string name="agreement2"><u>политикой конфиденциальности</u></string>
+    <string name="already_have_account">уже есть аккаунт</string>
+
+
+    <!-- Choose name-->
+    <string name="come_up_with_a_name">Придумайте название вашего сада</string>
+    <string name="name_of_garden">имя сада</string>
+    <string name="done">готово</string>
+
+
+    <!-- Plants-->
+    <string name="plants_title">Справочник посадок</string>
+    <string name="giacint">Гиацинт</string>
+    <string name="gortensia">Гортензия</string>
+    <string name="elka">Ель</string>
+    <string name="vasilek">Василек</string>
+    <string name="iris">Ирис</string>
+
+    <!--Empty fragment-->
+    <string name="oopsie">Упс!</string>
+    <string name="nothing">Похоже, тут ничего нет. Но скоро что нибудь появится!</string>
+
+
+    <!--Giacint-->
+    <string name="giacint_name">ГИАЦИНТ</string>
+    <string name="giacint_lat">лат. Hyacintus</string>
+    <string name="giacint_desk1">Гиаци́нт (лат. Hyacínthus) — род растений семейства Спаржевые (Asparagaceae). Ранее выделялся в собственное семейство Гиацинтовые (Hyacinthaceae) или включался в семейство Лилейные (Liliaceae).</string>
+    <string name="giacint_desk2">Названия цветка происходит от древнегреческого мифа о спартанском принце Гиацинте, возлюбленном Аполлона, которого тот случайно убил во время игры в метание диска и из крови которого по легенде и появился этот цветок.</string>
+</resources>

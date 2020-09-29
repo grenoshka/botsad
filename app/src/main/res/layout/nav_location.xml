@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/background_image"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/app_background" />
+
+                        <ImageView
+                            android:id="@+id/belochka"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="220dp"
+                            android:layout_marginEnd="300dp"
+                            android:onClick="startDialog1"
+                            android:src="@drawable/blue_tree"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/dialog_elochka"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_marginStart="48dp"
+                            android:visibility="gone"
+                            app:layout_constraintStart_toStartOf="@+id/elochka"
+                            app:layout_constraintTop_toTopOf="@+id/elochka"
+                            app:srcCompat="@drawable/dialog1" />
+
+                        <ImageView
+                            android:id="@+id/elochka"
+                            android:layout_width="67dp"
+                            android:layout_height="114dp"
+                            android:layout_marginTop="228dp"
+                            android:layout_marginEnd="380dp"
+                            android:onClick="startDialog2"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/dialog_belochka"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:layout_marginEnd="30dp"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="@+id/elochka"
+                            app:layout_constraintEnd_toEndOf="@+id/belochka"
+                            app:srcCompat="@drawable/dialog2" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/icons_left"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icons_left" />
+
+    <ImageView
+        android:id="@+id/icons_right"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icons_right" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
